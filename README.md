@@ -1,2 +1,7 @@
-# corporate-site
-Amorotech's corporate website
+## Corporate website
+
+Corporate website code
+
+## Copyright
+
+Copyright (c) 2025 Amorotech
