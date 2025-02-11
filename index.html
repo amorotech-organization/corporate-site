@@ -1,137 +1,319 @@
-<!DOCTYPE HTML>
+<!doctype html>
+<html lang="en">
+<head>
 
-<html>
-	<head>
-		<title>Amorotech</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body>
-		<div id="page-wrapper">
+    <meta charset="utf-8">
 
-			<!-- Header -->
-				<div id="header-wrapper">
-					<div class="container">
-						<div class="row">
-							<div class="col-12">
-								<header id="header">
-									<h1><a href="index.html" id="logo">Amorotech</a></h1>
-									<nav id="nav">
-										<a href="index.html" class="current-page-item">Homepage</a>										
-										<a href="">Book calls</a>
-										<a href="contacts.html">Contacts</a>										
-									</nav>
-								</header>
-							</div>
-						</div>
-					</div>
-				</div>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-			<!-- Banner -->
-				<div id="banner-wrapper">
-					<div class="container">
-						<div id="banner">
-							<h2>Need help with your start-up?</h2>
-							<span>We simplify tech for non-tech founders</span>
-						</div>
-					</div>
-				</div>
+    <title>Amorotech</title>
 
-			<!-- Main -->
-				<div id="main">
-					<div class="container">
-						<div class="row main-row">
-							<div class="col-4 col-12-medium">
-								<section>
-									<h2>If you can relate to a few items below, let's proceed:​</h2>
-									<ul>										
-										<li>- possess product vision​</li>
-										<li>- passionate about transforming lives of target audience​</li>
-										<li>- innovative to find opportunities for disruption​</li>
-										<li>- resilient for setbacks and failures​</li>
-										<li>- adaptable to changes in the market conditions​</li>
-										<li>- collaborative enough to create a team around the product​</li>
-										<li>- growth oriented​</li>
-										<li>- recognizes the importance of ongoing learning​</li>
-										<li>- willing to take calculated risks​</li>
-										<li>- effective communicator​</li>
-									</ul>
-									<footer class="controls">
-										<a href="" class="button">I am interested ...</a>
-									</footer>
-								</section>
-							</div>
-							<div class="col-4 col-6-medium col-12-small">
-								<section>
-									<h2>Who are you guys?</h2>
-									<ul class="small-image-list">
-										<li>
-											<a href="#"><img src="images/pic2.jpg" alt="" class="left" /></a>
-											<h4>We a team of developers wth experience in startups</h4>											
-										</li>										
-									</ul>
-								</section>
-							</div>
-							
-							<!-- <div class="col-6 col-12-medium">
-								<section>
-									<h2>An assortment of pictures and text</h2>
-									<p>Duis neque nisi, dapibus sed mattis quis, rutrum et accumsan.
-									Suspendisse nibh. Suspendisse vitae magna eget odio amet mollis
-									justo facilisis quis. Sed sagittis mauris amet tellus gravida
-									lorem ipsum dolor sit amet consequat blandit lorem ipsum dolor
-									sit amet consequat sed dolore.</p>
-									<ul class="big-image-list">
-										<li>
-											<a href="#"><img src="images/pic3.jpg" alt="" class="left" /></a>
-											<h3>Magna Gravida Dolore</h3>
-											<p>Varius nibh. Suspendisse vitae magna eget et amet mollis justo
-											facilisis amet quis consectetur in, sollicitudin vitae justo. Cras
-											Maecenas eu arcu purus, phasellus fermentum elit.</p>
-										</li>
-										<li>
-											<a href="#"><img src="images/pic4.jpg" alt="" class="left" /></a>
-											<h3>Magna Gravida Dolore</h3>
-											<p>Varius nibh. Suspendisse vitae magna eget et amet mollis justo
-											facilisis amet quis consectetur in, sollicitudin vitae justo. Cras
-											Maecenas eu arcu purus, phasellus fermentum elit.</p>
-										</li>
-										<li>
-											<a href="#"><img src="images/pic5.jpg" alt="" class="left" /></a>
-											<h3>Magna Gravida Dolore</h3>
-											<p>Varius nibh. Suspendisse vitae magna eget et amet mollis justo
-											facilisis amet quis consectetur in, sollicitudin vitae justo. Cras
-											Maecenas eu arcu purus, phasellus fermentum elit.</p>
-										</li>
-									</ul>
-								</section>
-							</div>							 -->
-						</div>
-					</div>
-				</div>
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png">
 
-			<!-- Footer -->
-				<div id="footer-wrapper">
-					<div class="container">						
-						<div class="row">
-							<div class="col-12">
-								<div id="copyright">
-									&copy; "Amorotech LLP". All rights reserved
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+    <link rel="stylesheet" href="/assets/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-		</div>
+</head>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+<body>
 
-	</body>
+    <header>
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+                    <a class="navbar-brand ps-4" href="/">
+                        <img src="/assets/images/amorotech-logo.png" width="50" height="50" alt="Amorotech-logo">
+                        Amorotech
+                    </a>
+
+                    <div class="pe-4">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+
+                    <div class="collapse navbar-collapse justify-content-end pe-4" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/book-a-call">&#9743 Book a call</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/checklists">&#9872 Checklists</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/contacts">&#8865 Contacts</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="container">
+
+            <div class="row justify-content-center small">
+                <div class="amorotech-bg-blue amorotech-divider">
+                    &nbsp;
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-sm-12 pt-1 pe-4 text-white amorotech-bg-black bg-gradient">
+                    <figure class="text-end">
+                        <blockquote class="blockquote">
+                            <small>
+                                No bird can sing the song that you can sing.
+                            </small>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            Ruler of the Night Mystic (<cite title="The most inspirational speech"><a href="/assets/audio/the-most-inspirational-speech.mp3" class="opacity-50" download>audio</a></cite>)
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="row amorotech-hero-section-row justify-content-center align-items-center">
+
+                <div class="col-12 p-4 text-center bg-dark bg-gradient">
+                    <div class="amorotech-text-yellow">
+                        <h1>Tech shop for non-tech entrepreneurs</h1>
+                    </div>
+                    <div>
+                        <span class="text-white opacity-50 p-2">
+                            [<a href="/assets/presentations/main-presentation-amorotech.pdf" download>presentation</a>]
+                            &darr;
+                        </span>
+                        <span class="text-white opacity-50 p-2">
+                            [<a href="/checklists">checklists</a>]
+                            &rarr;
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center small">
+                <div class="amorotech-bg-blue amorotech-divider">
+                    &nbsp;
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-6 p-4 amorotech-text-yellow amorotech-bg-light-gray bg-gradient">
+                    If you can relate to the items, ... :
+                </div>
+                <div class="col-sm-12 col-md-6 p-4 text-white bg-dark bg-gradient">
+                    <ul>
+                        <li>possess product vision</li>
+                        <li>passionate about transforming lives of target audience</li>
+                        <li>innovative to find opportunities for disruption</li>
+                        <li>resilient for setbacks and failures</li>
+                        <li>adaptable to changes in the market conditions</li>
+                        <li>collaborative enough to create a team around the product</li>
+                        <li>growth oriented</li>
+                        <li>recognize the importance of ongoing learning</li>
+                        <li>willing to take calculated risks</li>
+                        <li>effective communicator</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="amorotech-bg-blue amorotech-divider">
+                    &nbsp;
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-6 p-4 amorotech-text-yellow amorotech-bg-light-gray bg-gradient">
+                    ... then we fully embrace your ...
+                </div>
+                <div class="col-sm-12 col-md-6 p-4 text-white bg-dark bg-gradient">
+                    <ul>
+                        <li>limited vision on what technologies to use</li>
+                        <li>lack of product development and design thinking</li>
+                        <li>non-acquaintance with the recent tech instruments and advancements</li>
+                        <li>inability to foresee challenges in the technical implementation</li>
+                        <li>inability to predict the cost of tech team</li>
+                        <li>lack of clarity on the volume and nature of work required</li>
+                        <li>limited ability to interpret data</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="amorotech-bg-blue amorotech-divider">
+                    &nbsp;
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-6 p-4 amorotech-text-yellow amorotech-bg-light-gray bg-gradient">
+                    If you accept the foundation of Amorotech = (amor) &#0149; (tech), ...
+                </div>
+                <div class="col-sm-12 col-md-6 p-4 text-white bg-dark bg-gradient">
+                    <ul>
+                        <li>
+                            <span class="amorotech-text-yellow">Dream:</span>
+                            World where tech projects are run by non-tech people
+                        </li>
+                        <li>
+                            <span class="amorotech-text-yellow">Vision:</span>
+                            A world where every non-tech entrepreneur has access to the tech skills they need to build social projects with a positive impact on the world
+                        </li>
+                        <li>
+                            <span class="amorotech-text-yellow">Mission:</span>
+                            To empower non-tech entrepreneurs with the tech skills and expertise they need to build successful projects that scale and thrive
+                        </li>
+                        <li>
+                            <span class="amorotech-text-yellow">Purpose:</span>
+                            To apply the most recent advancements in technology to deliver a new generation of projects that satisfy emerging demands​
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="amorotech-bg-blue amorotech-divider">
+                    &nbsp;
+                </div>
+            </div>
+
+            <span class="amorotech-text-yellow"></span>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-6 p-4 amorotech-text-yellow amorotech-bg-light-gray bg-gradient">
+                    ... then you could benefit from recent tech advancements:
+                </div>
+                <div class="col-sm-12 col-md-6 p-4 text-white bg-dark bg-gradient">
+                    <table class="table table-dark table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="col-1 text-center">
+                                    <span class="amorotech-text-yellow">#</span>
+                                </th>
+                                <th scope="col" class="col-4">
+                                    <span class="amorotech-text-yellow">The availability of ... :</span>
+                                </th>
+                                <th scope="col" class="col-7">
+                                    <span class="amorotech-text-yellow">... enables ... :</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="col" class="text-center">1</th>
+                                <td>... of cloud compute resources</td>
+                                <td>... everyone across all countries to have access to technology resources to run projects</td>
+                            </tr>
+                            <tr>
+                                <th scope="col" class="text-center">2</th>
+                                <td>... of horizontal and vertical scalability ...</td>
+                                <td>... developers to focus on delivering new features rather than investing time in optimizing their code base and infrastructure</td>
+                            </tr>
+                            <tr>
+                                <th scope="col" class="text-center">3</th>
+                                <td>... of almost unlimited storage capacity at low cost</td>
+                                <td>... the storage of big data</td>
+                            </tr>
+                            <tr>
+                                <th scope="col" class="text-center">4</th>
+                                <td>... of specific database systems managed by cloud providers</td>
+                                <td>... cost reduction, specifically regarding developers' time</td>
+                            </tr>
+                            <tr>
+                                <th scope="col" class="text-center">5</th>
+                                <td>... of global content delivery networks</td>
+                                <td>... effective distribution of data to users</td>
+                            </tr>
+                            <tr>
+                                <th scope="col" class="text-center">6</th>
+                                <td>... of new analytics services</td>
+                                <td>... efficient data analysis and extraction of valuable insights</td>
+                            </tr>
+                            <tr>
+                                <th scope="col" class="text-center">7</th>
+                                <td>... of a pay-as-you-go approach for pricing cloud services</td>
+                                <td>... elimination of major upfront costs</td>
+                            </tr>
+                            <tr>
+                                <th scope="col" class="text-center">8</th>
+                                <td>... of easy to apply programming frameworks</td>
+                                <td>... developers to avoid starting from scratch in project development</td>
+                            </tr>
+                            <tr>
+                                <th scope="col" class="text-center">9</th>
+                                <td>... of smartphones as computers</td>
+                                <td>... to focus on applying a range of features that are not found in traditional personal computers or laptops</td>
+                            </tr>
+                            <tr>
+                                <th scope="col" class="text-center">10</th>
+                                <td>... of machine learning technologies</td>
+                                <td>... shift of paradigm for a new generation of start-ups</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="amorotech-bg-blue amorotech-divider">
+                    &nbsp;
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-6 p-4 amorotech-text-yellow amorotech-bg-light-gray bg-gradient">
+                    If you start fresh, then reap the benefits of ...
+                </div>
+                <div class="col-sm-12 col-md-6 p-4 text-white bg-dark bg-gradient">
+                    <ul>
+                        <li>reduced bureaucracy</li>
+                        <li>ability to make quick decisions and pivot quickly</li>
+                        <li>reduced risk of legacy code</li>
+                        <li>ability to respond quickly to changing customer needs</li>
+                        <li>ability to identify and capitalize on emerging opportunities</li>
+                        <li>ability to simplify technology stacks and reduce complexity</li>
+                        <li>improved maintainability, scalability, and performance</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="amorotech-bg-blue amorotech-divider">
+                    &nbsp;
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center amorotech-bg-black bg-gradient">
+                    <div class="text-white opacity-50">
+                        <small>
+                            &copy; 2025, Amorotech LLC
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+</body>
 </html>
