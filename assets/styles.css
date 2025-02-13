@@ -75,3 +75,22 @@ a.navbar-brand:hover {
 .amorotech-black-square {
     color: #000000
 }
+
+table {
+    border: 1px solid #ffffff;
+}
+
+table th {
+    border: 1px solid #ffffff;
+    padding: 2px 4px;
+}
+
+table tr {
+    border: 1px solid #ffffff;
+    padding: 2px 4px;
+}
+
+table td {
+    border: 1px solid #ffffff;
+    padding: 2px 4px;
+}
