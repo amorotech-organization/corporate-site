@@ -40,6 +40,16 @@ a.navbar-brand:hover {
     height: 60vh;
 }
 
+.amorotech-hero-section-row-contacts-page {
+    background-color: black;
+    height: 80vh;
+}
+
+.amorotech-hero-section-row-error-page {
+    background-color: black;
+    height: 100vh;
+}
+
 .amorotech-text-yellow {
     color: #ffec2d
 }
