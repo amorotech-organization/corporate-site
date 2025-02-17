@@ -181,6 +181,11 @@ table td {
         font-size: 0.8em;
     }
 
+    .amorotech-hero-section-row-error-page {
+        font-size: 0.8em;
+        height: 100vh;
+    }
+
     .cta-presentation {
         font-size: 0.6em;
     }
