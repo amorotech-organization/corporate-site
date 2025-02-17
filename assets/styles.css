@@ -104,3 +104,63 @@ table td {
     border: 1px solid #787878;
     padding: 2px 4px;
 }
+
+.navbar-brand img {
+    width: 2em;
+    height: 2em;
+}
+
+@media (max-width: 768px) {
+
+    .navbar-toggler-icon {
+        width: 1em;
+        height: 1em;
+    }
+
+    .navbar-nav {
+        font-size: 0.7em;
+    }
+
+    .navbar-brand {
+        font-size: 1em;
+    }
+
+    .navbar-brand img {
+        width: 1.2em;
+        height: 1.2em;
+    }
+
+    .blockquote {
+        font-size: 0.7em;
+    }
+
+    .blockquote-footer {
+        font-size: 0.5em;
+    }
+
+    h1 {
+        font-size: 1.4em;
+    }
+
+    h5 {
+        font-size: 1em;
+    }
+
+    .amorotech-hero-section-row {
+        background-color: black;
+        height: 40vh;
+    }
+
+    .cta-presentation {
+        font-size: 0.6em;
+    }
+
+    .cta-checklists {
+        font-size: 0.6em;
+    }
+
+    .amorotech-download {
+        font-size: 0.7em;
+    }
+
+}
