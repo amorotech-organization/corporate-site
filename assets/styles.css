@@ -142,6 +142,18 @@ table td {
         font-size: 1.4em;
     }
 
+    h2 {
+        font-size: 1.3em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    h4 {
+        font-size: 1.1em;
+    }
+
     h5 {
         font-size: 1em;
     }
@@ -154,6 +166,10 @@ table td {
     .amorotech-hero-section-row-contacts-page {
         background-color: black;
         height: 60vh;
+    }
+
+    .amorotech-address-row {
+        font-size: 0.8em;
     }
 
     .cta-presentation {
