@@ -42,7 +42,12 @@ a.navbar-brand:hover {
 
 .amorotech-hero-section-row-contacts-page {
     background-color: black;
-    height: 80vh;
+    height: 100vh;
+}
+
+.amorotech-hero-section-row-checklists-page {
+    background-color: black;
+    height: 20vh;
 }
 
 .amorotech-hero-section-row-error-page {
@@ -165,10 +170,14 @@ table td {
 
     .amorotech-hero-section-row-contacts-page {
         background-color: black;
-        height: 80vh;
+        height: 100vh;
     }
 
     .amorotech-address-row {
+        font-size: 0.8em;
+    }
+
+    .amorotech-checklists-row {
         font-size: 0.8em;
     }
 
