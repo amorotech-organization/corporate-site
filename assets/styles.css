@@ -151,6 +151,11 @@ table td {
         height: 40vh;
     }
 
+    .amorotech-hero-section-row-contacts-page {
+        background-color: black;
+        height: 60vh;
+    }
+
     .cta-presentation {
         font-size: 0.6em;
     }
