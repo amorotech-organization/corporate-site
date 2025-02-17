@@ -135,6 +135,13 @@ table td {
         height: 1.2em;
     }
 
+    .navbar-toggler:focus,
+    .navbar-toggler:active,
+    .navbar-toggler-icon:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
     .blockquote {
         font-size: 0.7em;
     }
