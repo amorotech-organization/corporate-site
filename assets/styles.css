@@ -1,3 +1,7 @@
+:root {
+    --bs-body-font-family: Outfit, Roboto, sans-serif;
+}
+
 html body {
     background-color: #838383;
 }
